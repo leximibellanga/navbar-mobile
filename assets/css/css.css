@@ -68,6 +68,25 @@ i {
 }
 
 
+main {
+    padding: 20px;
+    margin-bottom: 80px /* para evitar que o conteúdo fique escondido atrás do header fixo */;
+}
+
+main h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+main p {
+    font-size: 1em;
+    line-height: 1.5;
+    text-align: justify;
+    margin-bottom: 15px;
+    text-indent: 20px;
+}
+
+
 /* RESPONSIVIDADE */
 @media screen and (width >= 768px) {
     header {
@@ -92,5 +111,10 @@ i {
     .link-text {
         display: inline;
         font-size: 1em;
+    }
+
+
+    main {
+        margin-left: 220px;
     }
 }
