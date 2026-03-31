@@ -73,8 +73,7 @@ i {
 
 
 main {
-    padding: 20px;
-    margin-bottom: 80px /* para evitar que o conteúdo fique escondido atrás do header fixo */;
+    padding: 20px 20px 80px;
 }
 
 main h1 {
